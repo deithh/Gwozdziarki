@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     
 }
 body{
@@ -102,17 +102,46 @@ ul{
 
 .rightbutton
 {
-    right:0%;
+    right:2%;
 }
 
 
 .leftbutton{
-    left:0%;
+    left:2%;
 
 }
 .sbutton:hover{
     opacity:1;
 }
+.slidercontrol{
+    position: absolute;
+    display: none;
+    bottom: 5%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 100%;;
+    left: 0;
+}
+
+.radio:not(:last-child){
+    margin-right: 30px;
+}
+.radio{
+    opacity:0.2;
+    transition: opacity 0.3s;
+    
+}
+.radio:checked{
+    opacity:1;
+    background-color:#FFF;
+    outline: none;
+    border: none;
+    
+}
+
+
 .image,
 .description
 {
@@ -154,6 +183,7 @@ ul{
     text-decoration: none;
     color:#FFF;
 }
+
 @media (min-width: 800px){
     .footer{
         
@@ -182,7 +212,29 @@ ul{
     .dsc{
         text-align: left;
     }
+    .slidercontrol{
+        display: flex;
+    }
 }
-
+#icon1,
+#icon0,
+#icon2{
+    transition: 0.3s;
+}
+#icon2-h:hover #icon2{
+    transform: rotate(30deg);
+    color:rgb(221, 97, 14);
+    
+}
+#icon1-h:hover #icon1{
+    transform: rotate(30deg);
+    color:rgb(221, 97, 14);
+    
+}
+#icon0-h:hover #icon0{
+    transform: rotate(30deg);
+    color:rgb(221, 97, 14);
+    
+}
 
 
