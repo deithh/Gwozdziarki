@@ -32,28 +32,20 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: space-around;
-    padding: 10vw;
+    padding: 3vw;
     box-shadow: inset 10px 10px 151px 0px rgba(0,0,0,0.75);
 
     
 }
 .description{
-    display: flex;
-    height: 50%;
-    width: 100%;
-    padding: 0;
-    margin:0;
+    
     text-align: right;
     float: right;
     
     
 }
 .image {
-    height: 50%;
-    width: 100%;
-    display: flex;
-    padding: 0;
-    margin:0;
+    
     
     
 
@@ -87,59 +79,54 @@ ul{
 
 .dsc{
     display: flex;
-    justify-content: center;
+    text-align: center;
     align-items: center;
     font-size: 2.5em;
 }
 
-
-
-
-
-
-
-.rightbutton
+.sbutton
 {
-    
-    background-color: white;
+    background-color: transparent;
     position: absolute;
     display: block;
     top: 50%;
     transform:translateY(-50%);
-    width:5vh;
-    height: 5vh;
+    outline: none;
+    width:10vh;
+    height: 10vh;
+    opacity:0.2;
+    border: none;
+    will-change: opacity;
+    transition: opacity 0.3s;
+}
+
+.rightbutton
+{
     right:0%;
-    opacity:0.3;
 }
 
 
 .leftbutton{
     left:0%;
-    
-    background-color: #FFF;
-    position: absolute;
-    display: block;
-    top: 50%;
-    transform:translateY(-50%);
-    
-    width:5vh;
-    height: 5vh;
-    opacity:0.3;
 
 }
-.leftbutton:hover,
-.rightbutton:hover{
+.sbutton:hover{
     opacity:1;
 }
 .image,
 .description
 {
     justify-content: space-around;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    padding: 0;
+    margin:0;
 }
 .binder{
     inline-size: -webkit-fill-available;
     position: relative;
-    float:right;
+    
 }
 .contacts{
     
@@ -156,7 +143,7 @@ ul{
 .contactssvg{
     width:1em;
     height:1em;
-    viewBox:0 0 16 16;
+    
     fill:currentColor;
     margin-right: 2px;
     vertical-align: middle;
@@ -181,6 +168,9 @@ ul{
         flex-direction: row;
         
     }
+    .content{
+        padding: 10vw;
+    }
 }
 @media (min-width: 600px){
     .image, .description{
@@ -188,6 +178,9 @@ ul{
         width: 50%;
         height: 100%;
         padding: 0;
+    }
+    .dsc{
+        text-align: left;
     }
 }
 
