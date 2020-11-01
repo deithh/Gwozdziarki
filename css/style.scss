@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+body{
+    margin:0;
+    padding:0;
+    
+    background-color: black;
+    
+    
+    overflow:hidden;
+    color:#FFF;
+}
+.container{
+    
+    height:90vh;
+    
+    
+}
+@import 'slidercontent.scss';
+@import 'slidercontrol.scss';
+@import 'footer.scss';
+@import 'media.scss';

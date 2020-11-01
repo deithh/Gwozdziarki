@@ -1,0 +1,46 @@
+.content{
+    margin:0;
+    
+    height: 85vh;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    background-image: url('../img/back.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-around;
+    padding: 3vw;
+    box-shadow: inset 0px 0px 300px 4000px rgba(0,0,0,0.9);
+
+}
+.description{
+    
+    text-align: right;
+    float: right;
+    
+    
+}
+.image {
+    img{
+        display: block;
+        width:90%;
+
+    }
+}
+
+.dsc{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 2.5em;
+}
+.image,
+.description
+{
+    justify-content: space-around;
+    height: auto;
+    width: 100%;
+    display: flex;
+    padding: 0;
+    margin:0;
+}
