@@ -10,15 +10,16 @@ body{
     background-color: black;
     
     
-    overflow:hidden;
+
     color:#FFF;
 }
 .container{
     
     height:90vh;
-    
-    
+                                      
 }
+
+
 @import 'slidercontent.scss';
 @import 'slidercontrol.scss';
 @import 'footer.scss';

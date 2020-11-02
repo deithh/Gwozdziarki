@@ -12,6 +12,7 @@
     border: none;
     will-change: opacity;
     transition: opacity 0.3s;
+    cursor: pointer;
 }
 
 .rightbutton
@@ -43,22 +44,24 @@
     margin-right: 30px;
 }
 .radio{
-    opacity:0.2;
-    transition: opacity 0.3s;
-    
+    background-color: transparent;
+    outline: 0;
+    border:none;
+    cursor: pointer;
+    &:before{
+        opacity: 0.3;
+        content: " ";
+        position:relative;
+        top:0;
+        left:0;
+        display: block;
+        height: 1em;
+        width: 1em;
+        background-color: #fff;
+        border-radius: 20px;
+        
+    }
 }
-.radio:before{
-    content: " ";
-    position:relative;
-    top:0;
-    left:0;
-    display: block;
-    height: 1em;
-    width: 1em;
-    background-color: white;
-    border-radius: 20px;
-}
-.radio:checked{
-    opacity:1;
-    
+.currentDot:before{
+    opacity: 1 !important;
 }

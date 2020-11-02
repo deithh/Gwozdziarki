@@ -9,22 +9,30 @@
 
     }
     
+    
    
 }
 @media (min-width: 600px){
     .image, .description{
-        display: block;
+        
         width: 50%;
         height: 100%;
         padding: 0;
-    }
-    .dsc{
-        text-align: left;
     }
     .slidercontrol{
         display: flex;
     }
     .footer{
         font-size:1.5em;
+    }
+    .content{
+        flex-direction: row;
+
+    }
+    .description{
+        p{
+            text-align: start;
+    
+        }
     }
 }
