@@ -1,9 +1,11 @@
 # Gwozdziarki
 simple static site
-https://deithh.github.io/Gwozdziarki/
+
+Try it! https://deithh.github.io/Gwozdziarki/
+
 I used:
-*sass precompiler
-*js for slider
+* sass precompiler
+* js for slider
 
 # Appearance
 ![alt text](https://i.imgur.com/nc8BTuD.png)
