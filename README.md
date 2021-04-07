@@ -4,7 +4,7 @@ simple static site
 Try it! https://deithh.github.io/Gwozdziarki/
 
 I used:
-* sass precompiler
+* scss precompiler
 * js for slider
 
 # Appearance
