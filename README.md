@@ -8,7 +8,7 @@ I used:
 * js for slider
 
 # Appearance
-![alt text](https://i.imgur.com/nc8BTuD.png)
+![page](https://i.imgur.com/nc8BTuD.png)
 
 
 
