@@ -1,4 +1,4 @@
-# simple static site
+# Simple static site
 
 Try it! https://deithh.github.io/Gwozdziarki/
 
